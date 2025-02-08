@@ -177,3 +177,17 @@ vi:
       long: "%d %B, %Y %H:%M"
       short: "%d %b %H:%M"
     pm: chiều
+
+# > bundle exec rake i18n-spec:completeness rails/locale/en.yml rails/locale/vi.yml
+
+# ### rails/locale/vi.yml
+
+# - *MISSING* datetime.distance_in_words.x_years
+# - *MISSING* errors.messages.in
+# - *MISSING* errors.messages.model_invalid
+# - *MISSING* errors.messages.password_too_long
+# - *MISSING* number.currency.format.negative_format
+# - *MISSING* number.format.round_mode
+# - *MISSING* number.human.storage_units.units.eb
+# - *MISSING* number.human.storage_units.units.pb
+# - *MISSING* number.human.storage_units.units.zb

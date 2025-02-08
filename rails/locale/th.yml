@@ -4,6 +4,9 @@ th:
     errors:
       messages:
         record_invalid: 'ไม่ผ่านการตรวจสอบ: %{errors}'
+        restrict_dependent_destroy:
+          has_one: "ไม่สามารถลบระเบียนได้เนื่องจากมี %{record} ที่ขึ้นอยู่กับที่มีอยู่แล้ว"
+          has_many: "ไม่สามารถลบระเบียนได้เนื่องจากมี %{record} ที่ขึ้นอยู่"
   date:
     abbr_day_names:
     - อา
@@ -168,3 +171,21 @@ th:
       long: "%d %B %Y %H:%M น."
       short: "%d %b %H:%M น."
     pm: หลังเที่ยง
+
+# > bundle exec rake i18n-spec:completeness rails/locale/en.yml rails/locale/th.yml
+
+# ### rails/locale/th.yml
+
+# - *MISSING* datetime.distance_in_words.x_years
+# - *MISSING* errors.messages.in
+# - *MISSING* errors.messages.model_invalid
+# - *MISSING* errors.messages.other_than
+# - *MISSING* errors.messages.password_too_long
+# - *MISSING* errors.messages.present
+# - *MISSING* errors.messages.required
+# - *MISSING* number.currency.format.negative_format
+# - *MISSING* number.format.round_mode
+# - *MISSING* number.human.storage_units.units.eb
+# - *MISSING* number.human.storage_units.units.pb
+# - *MISSING* number.human.storage_units.units.zb
+# - *MISSING* number.percentage.format.format

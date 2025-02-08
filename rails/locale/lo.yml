@@ -4,6 +4,9 @@ lo:
     errors:
       messages:
         record_invalid: 'ການຢືນຢັນບໍ່ສຳເລັດ : %{errors}'
+        restrict_dependent_destroy:
+          has_one: "ບໍ່ສາມາດລຶບບັນທຶກໄດ້ເນື່ອງຈາກມີ %{record} ທີ່ຂຶ້ນກັບ"
+          has_many: "ບໍ່ສາມາດລຶບບັນທຶກໄດ້ເນື່ອງຈາກມີ %{record} ທີ່ຂຶ້ນກັບ"
   date:
     abbr_day_names:
     - ອາທິດ
@@ -164,3 +167,31 @@ lo:
       long: "%d %B %Y %H:%M น."
       short: "%d %b %H:%M น."
     pm: ແລງ
+
+
+# bundle exec rake i18n-spec:completeness rails/locale/en.yml rails/locale/lo.yml
+
+# ### rails/locale/lo.yml
+
+# - *MISSING* datetime.distance_in_words.x_years
+# - *MISSING* errors.messages.in
+# - *MISSING* errors.messages.model_invalid
+# - *MISSING* errors.messages.not_an_integer
+# - *MISSING* errors.messages.other_than
+# - *MISSING* errors.messages.password_too_long
+# - *MISSING* errors.messages.present
+# - *MISSING* errors.messages.required
+# - *MISSING* helpers.submit.create
+# - *MISSING* helpers.submit.submit
+# - *MISSING* helpers.submit.update
+# - *MISSING* number.currency.format.negative_format
+# - *MISSING* number.format.round_mode
+# - *MISSING* number.human.decimal_units.units.billion
+# - *MISSING* number.human.decimal_units.units.million
+# - *MISSING* number.human.decimal_units.units.quadrillion
+# - *MISSING* number.human.decimal_units.units.thousand
+# - *MISSING* number.human.decimal_units.units.trillion
+# - *MISSING* number.human.storage_units.units.eb
+# - *MISSING* number.human.storage_units.units.pb
+# - *MISSING* number.human.storage_units.units.zb
+# - *MISSING* number.percentage.format.format

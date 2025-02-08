@@ -165,3 +165,25 @@ km:
       long: "%d %B %Y %H:%M"
       short: "%d %b %H:%M"
     pm: "​ល្ងាច"
+
+# > bundle exec rake i18n-spec:completeness rails/locale/en.yml rails/locale/km.yml
+
+# ### rails/locale/km.yml
+
+# - *MISSING* datetime.distance_in_words.x_years
+# - *MISSING* errors.messages.in
+# - *MISSING* errors.messages.model_invalid
+# - *MISSING* errors.messages.password_too_long
+# - *MISSING* errors.messages.required
+# - *MISSING* number.currency.format.negative_format
+# - *MISSING* number.format.round_mode
+# - *MISSING* number.human.storage_units.format
+# - *MISSING* number.human.storage_units.units.byte
+# - *MISSING* number.human.storage_units.units.eb
+# - *MISSING* number.human.storage_units.units.gb
+# - *MISSING* number.human.storage_units.units.kb
+# - *MISSING* number.human.storage_units.units.mb
+# - *MISSING* number.human.storage_units.units.pb
+# - *MISSING* number.human.storage_units.units.tb
+# - *MISSING* number.human.storage_units.units.zb
+# - *MISSING* number.percentage.format.format
